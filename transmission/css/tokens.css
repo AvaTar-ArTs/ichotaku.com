@@ -1,0 +1,54 @@
+/* Spiral-Sine flagship · design tokens
+   Palette follows the TrashCat Radio spec (ink / bone / signal pink / alarm /
+   night cobalt / deep cobalt / cyan / amber). Pink and cobalt are scene modes,
+   not decoration everywhere. */
+
+:root {
+  /* colour */
+  --void: #070709;
+  --bone: #F5EEDF;
+  --pink: #FF2E88;
+  --cyan: #4FD8FF;
+  --alarm: #E3122B;
+  --night: #0B1030;
+  --cobalt: #1A2B78;
+  --amber: #FFBF45;
+
+  /* surface */
+  --ground: var(--void);
+  --scene: var(--night);
+  --panel: rgba(255, 255, 255, 0.035);
+  --panel-edge: rgba(245, 238, 223, 0.14);
+  --ink-soft: rgba(245, 238, 223, 0.72);
+  --ink-faint: rgba(245, 238, 223, 0.46);
+
+  /* type */
+  --font-declaration: "Archivo Black", "Helvetica Neue", Impact, "Haettenschweiler", system-ui, sans-serif;
+  --font-telemetry: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  --font-editorial: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+  --font-jp: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+
+  --step--1: clamp(0.72rem, 0.68rem + 0.2vw, 0.82rem);
+  --step-0: clamp(0.95rem, 0.9rem + 0.25vw, 1.06rem);
+  --step-1: clamp(1.12rem, 1rem + 0.6vw, 1.4rem);
+  --step-2: clamp(1.5rem, 1.2rem + 1.4vw, 2.2rem);
+  --step-3: clamp(2.1rem, 1.4rem + 3.2vw, 4.2rem);
+  --step-4: clamp(2.8rem, 1.6rem + 5.4vw, 6.4rem);
+
+  /* space */
+  --gap-1: 0.5rem;
+  --gap-2: 1rem;
+  --gap-3: 1.75rem;
+  --gap-4: 3rem;
+  --gap-5: 5.5rem;
+  --measure: 68ch;
+  --page: clamp(1.1rem, 0.6rem + 2.4vw, 3.2rem);
+
+  /* motion: TUNE-IN → DECAY → CUT */
+  --tune: 420ms cubic-bezier(0.16, 0.84, 0.34, 1);
+  --decay: 900ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  --cut: 90ms steps(2, end);
+
+  --radius: 2px;
+  --focus: 2px solid var(--cyan);
+}

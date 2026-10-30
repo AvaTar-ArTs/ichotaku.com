@@ -1,0 +1,570 @@
+{
+  "generatedAt": "2026-10-30T13:49:19.398Z",
+  "policy": "Additive consolidation. Distinct source roots remain distinct; symlinks are preserved and not dereferenced.",
+  "atlasSource": "/Users/steven/Documents/Codex/2026-10-30/wi/work/sites/chotaku-creative-systems-atlas/dist",
+  "target": "/Users/steven/ichotaku.com",
+  "roots": [
+    {
+      "namespace": "afterdark-disco",
+      "source": "/Users/steven/Music/nocturneMelodies/disco-playlists/play-afterdark",
+      "destination": "/Users/steven/ichotaku.com/sites/afterdark-disco",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "afterdark-icloud",
+      "source": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/play-afterdark",
+      "destination": "/Users/steven/ichotaku.com/sites/afterdark-icloud",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "afterdark-other",
+      "source": "/Users/steven/Music/nocturneMelodies/other/play-afterdark",
+      "destination": "/Users/steven/ichotaku.com/sites/afterdark-other",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "afterdark-other-2",
+      "source": "/Users/steven/Music/nocturneMelodies/other/play-afterdark 2",
+      "destination": "/Users/steven/ichotaku.com/sites/afterdark-other-2",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "avatararts-root",
+      "source": "/Users/steven/ichoTaKu.avatararts.org",
+      "destination": "/Users/steven/ichotaku.com/sites/avatararts-root",
+      "referencedPages": 36
+    },
+    {
+      "namespace": "chotaku-accos",
+      "source": "/Users/steven/ACCOS-CreativeAI-Music-Engine/chotaku/mvp",
+      "destination": "/Users/steven/ichotaku.com/sites/chotaku-accos",
+      "referencedPages": 3
+    },
+    {
+      "namespace": "chotaku-deployment-accos",
+      "source": "/Users/steven/ACCOS-CreativeAI-Music-Engine/deployment/chotaku/templates",
+      "destination": "/Users/steven/ichotaku.com/sites/chotaku-deployment-accos",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "chotaku-deployment-music",
+      "source": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/deployment/chotaku/templates",
+      "destination": "/Users/steven/ichotaku.com/sites/chotaku-deployment-music",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "chotaku-music",
+      "source": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/chotaku/mvp",
+      "destination": "/Users/steven/ichotaku.com/sites/chotaku-music",
+      "referencedPages": 3
+    },
+    {
+      "namespace": "disco-all-prompt",
+      "source": "/Users/steven/Music/nocturneMelodies/disco-playlists/suno-disco-all-prompt-html",
+      "destination": "/Users/steven/ichotaku.com/sites/disco-all-prompt",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "disco-all-suno",
+      "source": "/Users/steven/Music/nocturneMelodies/disco-playlists/ALL-suno-mine-1437-tracks-2026-09",
+      "destination": "/Users/steven/ichotaku.com/sites/disco-all-suno",
+      "referencedPages": 3
+    },
+    {
+      "namespace": "disco-fill-me-up",
+      "source": "/Users/steven/Music/nocturneMelodies/disco-playlists/suno-disco-fill-me-up -html",
+      "destination": "/Users/steven/ichotaku.com/sites/disco-fill-me-up",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "disco-hub",
+      "source": "/Users/steven/Music/nocturneMelodies/disco-playlists/All-Disco-Hub-html",
+      "destination": "/Users/steven/ichotaku.com/sites/disco-hub",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "disco-meta-gen",
+      "source": "/Users/steven/Music/nocturneMelodies/disco-playlists/suno_meta-gen-html",
+      "destination": "/Users/steven/ichotaku.com/sites/disco-meta-gen",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "moving-discography",
+      "source": "/Users/steven/Music/nocturneMelodies/choTaKu_Animated_Suno_Site",
+      "destination": "/Users/steven/ichotaku.com/sites/moving-discography",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "moving-discography-2",
+      "source": "/Users/steven/Music/nocturneMelodies/choTaKu_Animated_Suno_Site 2",
+      "destination": "/Users/steven/ichotaku.com/sites/moving-discography-2",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "moving-discography-icloud",
+      "source": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/choTaKu_Animated_Suno_Site",
+      "destination": "/Users/steven/ichotaku.com/sites/moving-discography-icloud",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "multiverse-icloud-v1",
+      "source": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/avatararts-multiverse-sites",
+      "destination": "/Users/steven/ichotaku.com/sites/multiverse-icloud-v1",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "multiverse-icloud-v2",
+      "source": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/avatararts-multiverse-sites-v2",
+      "destination": "/Users/steven/ichotaku.com/sites/multiverse-icloud-v2",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "multiverse-icloud-v3",
+      "source": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/avatararts-multiverse-sites-v3",
+      "destination": "/Users/steven/ichotaku.com/sites/multiverse-icloud-v3",
+      "referencedPages": 1
+    },
+    {
+      "namespace": "steven-profile-icloud",
+      "source": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/steven-profile",
+      "destination": "/Users/steven/ichotaku.com/sites/steven-profile-icloud",
+      "referencedPages": 1
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/index.html"
+    },
+    {
+      "id": 2,
+      "title": "CHOTAKU — Open-Source Video Generation",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/index 2.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/index 2.html"
+    },
+    {
+      "id": 3,
+      "title": "DigitalDive | Creative Ecosystem Intelligence",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/index-og.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/index-og.html"
+    },
+    {
+      "id": 4,
+      "title": "CHOTAKU | Open-Source Video Generation",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/index_v2.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/index_v2.html"
+    },
+    {
+      "id": 5,
+      "title": "CHOTAKU | Open-Source Video Generation",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/index-chotaku_v2.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/index-chotaku_v2.html"
+    },
+    {
+      "id": 6,
+      "title": "DigitalDive | Creative Ecosystem Intelligence",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/index-digital-dive-og.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/index-digital-dive-og.html"
+    },
+    {
+      "id": 7,
+      "title": "Play Afterdark",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/other/play-afterdark/index.html",
+      "namespace": "afterdark-other",
+      "route": "sites/afterdark-other/index.html"
+    },
+    {
+      "id": 8,
+      "title": "Play Afterdark",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/other/play-afterdark 2/index.html",
+      "namespace": "afterdark-other-2",
+      "route": "sites/afterdark-other-2/index.html"
+    },
+    {
+      "id": 9,
+      "title": "ichoTaKu — Channel Fixes Preview",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/ichoTaku_channel_fixes_preview.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/ichoTaku_channel_fixes_preview.html"
+    },
+    {
+      "id": 10,
+      "title": "choTaKu | The Moving Discography",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/choTaKu_Animated_Suno_Site/index.html",
+      "namespace": "moving-discography",
+      "route": "sites/moving-discography/index.html"
+    },
+    {
+      "id": 11,
+      "title": "CHOTAKU · Neon Archaeology",
+      "sourcePath": "/Users/steven/ACCOS-CreativeAI-Music-Engine/chotaku/mvp/templates/index.html",
+      "namespace": "chotaku-accos",
+      "route": "sites/chotaku-accos/templates/index.html"
+    },
+    {
+      "id": 12,
+      "title": "choTaKu | The Moving Discography",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/choTaKu_Animated_Suno_Site 2/index.html",
+      "namespace": "moving-discography-2",
+      "route": "sites/moving-discography-2/index.html"
+    },
+    {
+      "id": 13,
+      "title": "AvaTar-ArTs Multiverse Preview",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/index.html"
+    },
+    {
+      "id": 14,
+      "title": "Play Afterdark",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/play-afterdark/index.html",
+      "namespace": "afterdark-disco",
+      "route": "sites/afterdark-disco/index.html"
+    },
+    {
+      "id": 15,
+      "title": "AvaTar-ArTs Multiverse V2",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/index.html"
+    },
+    {
+      "id": 16,
+      "title": "AvaTar-ArTs Multiverse V2",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/index.html"
+    },
+    {
+      "id": 17,
+      "title": "CHOTAKU — Open-Source Video Generation",
+      "sourcePath": "/Users/steven/ACCOS-CreativeAI-Music-Engine/chotaku/mvp/static_deploy/index.html",
+      "namespace": "chotaku-accos",
+      "route": "sites/chotaku-accos/static_deploy/index.html"
+    },
+    {
+      "id": 18,
+      "title": "Creator Camp | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/camp/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/camp/index.html"
+    },
+    {
+      "id": 19,
+      "title": "AvaTar-ArTs Labs | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/labs/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/labs/index.html"
+    },
+    {
+      "id": 20,
+      "title": "CHOTAKU · Neon Archaeology",
+      "sourcePath": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/chotaku/mvp/templates/index.html",
+      "namespace": "chotaku-music",
+      "route": "sites/chotaku-music/templates/index.html"
+    },
+    {
+      "id": 21,
+      "title": "Love Is Rubbish | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/alley/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/alley/index.html"
+    },
+    {
+      "id": 22,
+      "title": "Trashcat Radio | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/radio/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/radio/index.html"
+    },
+    {
+      "id": 23,
+      "title": "CHOTAKU · Neon Archaeology",
+      "sourcePath": "/Users/steven/ACCOS-CreativeAI-Music-Engine/deployment/chotaku/templates/index.html",
+      "namespace": "chotaku-deployment-accos",
+      "route": "sites/chotaku-deployment-accos/index.html"
+    },
+    {
+      "id": 24,
+      "title": "CHOTAKU | Open-Source Video Generation",
+      "sourcePath": "/Users/steven/ACCOS-CreativeAI-Music-Engine/chotaku/mvp/static_deploy/index_v2.html",
+      "namespace": "chotaku-accos",
+      "route": "sites/chotaku-accos/static_deploy/index_v2.html"
+    },
+    {
+      "id": 25,
+      "title": "Inside the Build | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/builds/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/builds/index.html"
+    },
+    {
+      "id": 26,
+      "title": "Creative Archive | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/archive/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/archive/index.html"
+    },
+    {
+      "id": 27,
+      "title": "Systems That Create | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/systems/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/systems/index.html"
+    },
+    {
+      "id": 28,
+      "title": "Creator Camp | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/camp/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/camp/index.html"
+    },
+    {
+      "id": 29,
+      "title": "AvaTar-ArTs Labs | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/labs/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/labs/index.html"
+    },
+    {
+      "id": 30,
+      "title": "Creator Camp | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/camp/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/camp/index.html"
+    },
+    {
+      "id": 31,
+      "title": "AvaTar-ArTs Labs | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/labs/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/labs/index.html"
+    },
+    {
+      "id": 32,
+      "title": "Play Afterdark",
+      "sourcePath": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/play-afterdark/index.html",
+      "namespace": "afterdark-icloud",
+      "route": "sites/afterdark-icloud/index.html"
+    },
+    {
+      "id": 33,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites/ichotaku/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites/ichotaku/index.html"
+    },
+    {
+      "id": 34,
+      "title": "Love Is Rubbish | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/alley/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/alley/index.html"
+    },
+    {
+      "id": 35,
+      "title": "Trashcat Radio | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/radio/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/radio/index.html"
+    },
+    {
+      "id": 36,
+      "title": "Love Is Rubbish | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/alley/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/alley/index.html"
+    },
+    {
+      "id": 37,
+      "title": "Trashcat Radio | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/radio/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/radio/index.html"
+    },
+    {
+      "id": 38,
+      "title": "CHOTAKU — Open-Source Video Generation",
+      "sourcePath": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/chotaku/mvp/static_deploy/index.html",
+      "namespace": "chotaku-music",
+      "route": "sites/chotaku-music/static_deploy/index.html"
+    },
+    {
+      "id": 39,
+      "title": "ichoTaKu Verified Cover Preview",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/yt-ichoTaku/ichoTaku_verified_cover_preview.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/yt-ichoTaku/ichoTaku_verified_cover_preview.html"
+    },
+    {
+      "id": 40,
+      "title": "Inside the Build | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/builds/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/builds/index.html"
+    },
+    {
+      "id": 41,
+      "title": "Inside the Build | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/builds/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/builds/index.html"
+    },
+    {
+      "id": 42,
+      "title": "Creative Archive | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/archive/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/archive/index.html"
+    },
+    {
+      "id": 43,
+      "title": "Systems That Create | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/systems/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/systems/index.html"
+    },
+    {
+      "id": 44,
+      "title": "Creative Archive | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/archive/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/archive/index.html"
+    },
+    {
+      "id": 45,
+      "title": "Systems That Create | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/systems/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/systems/index.html"
+    },
+    {
+      "id": 46,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v3/ichotaku/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v3/ichotaku/index.html"
+    },
+    {
+      "id": 47,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/avatararts-multiverse-sites-v2/ichotaku/index.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/avatararts-multiverse-sites-v2/ichotaku/index.html"
+    },
+    {
+      "id": 48,
+      "title": "CHOTAKU · Neon Archaeology",
+      "sourcePath": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/deployment/chotaku/templates/index.html",
+      "namespace": "chotaku-deployment-music",
+      "route": "sites/chotaku-deployment-music/index.html"
+    },
+    {
+      "id": 49,
+      "title": "CHOTAKU | Open-Source Video Generation",
+      "sourcePath": "/Users/steven/Music/ACCOS-CreativeAI-Music-Engine/chotaku/mvp/static_deploy/index_v2.html",
+      "namespace": "chotaku-music",
+      "route": "sites/chotaku-music/static_deploy/index_v2.html"
+    },
+    {
+      "id": 50,
+      "title": "ichoTaKu Cover Replacement Preview",
+      "sourcePath": "/Users/steven/ichoTaKu.avatararts.org/yt-ichoTaku/ichoTaku_cover_replacement_preview.html",
+      "namespace": "avatararts-root",
+      "route": "sites/avatararts-root/yt-ichoTaku/ichoTaku_cover_replacement_preview.html"
+    },
+    {
+      "id": 51,
+      "title": "choTaKu | The Moving Discography",
+      "sourcePath": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/choTaKu_Animated_Suno_Site/index.html",
+      "namespace": "moving-discography-icloud",
+      "route": "sites/moving-discography-icloud/index.html"
+    },
+    {
+      "id": 52,
+      "title": "Vanilla-1.html",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/ALL-suno-mine-1437-tracks-2026-09/Vanilla-1.html",
+      "namespace": "disco-all-suno",
+      "route": "sites/disco-all-suno/Vanilla-1.html"
+    },
+    {
+      "id": 53,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/avatararts-multiverse-sites/ichotaku/index.html",
+      "namespace": "multiverse-icloud-v1",
+      "route": "sites/multiverse-icloud-v1/ichotaku/index.html"
+    },
+    {
+      "id": 54,
+      "title": "suno_meta-gen-3.html",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/ALL-suno-mine-1437-tracks-2026-09/suno_meta-gen-3.html",
+      "namespace": "disco-all-suno",
+      "route": "sites/disco-all-suno/suno_meta-gen-3.html"
+    },
+    {
+      "id": 55,
+      "title": "Steven / Chotaku — Updated Fiverr Preview",
+      "sourcePath": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/steven-profile/chotaku-fiverr-updated-preview.html",
+      "namespace": "steven-profile-icloud",
+      "route": "sites/steven-profile-icloud/chotaku-fiverr-updated-preview.html"
+    },
+    {
+      "id": 56,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/avatararts-multiverse-sites-v3/ichotaku/index.html",
+      "namespace": "multiverse-icloud-v3",
+      "route": "sites/multiverse-icloud-v3/ichotaku/index.html"
+    },
+    {
+      "id": 57,
+      "title": "ichoTaKu | AvaTar-ArTs",
+      "sourcePath": "/Users/steven/Library/Mobile Documents/com~apple~CloudDocs/avatararts-multiverse-sites-v2/ichotaku/index.html",
+      "namespace": "multiverse-icloud-v2",
+      "route": "sites/multiverse-icloud-v2/ichotaku/index.html"
+    },
+    {
+      "id": 58,
+      "title": "suno-Discography-ALL-prompt-2.html",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/ALL-suno-mine-1437-tracks-2026-09/suno-Discography-ALL-prompt-2.html",
+      "namespace": "disco-all-suno",
+      "route": "sites/disco-all-suno/suno-Discography-ALL-prompt-2.html"
+    },
+    {
+      "id": 59,
+      "title": "Discography",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/All-Disco-Hub-html/Discography 16f36221d8b280369c10efce4da68757.html",
+      "namespace": "disco-hub",
+      "route": "sites/disco-hub/Discography 16f36221d8b280369c10efce4da68757.html"
+    },
+    {
+      "id": 60,
+      "title": "suno_meta-gen",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/suno_meta-gen-html/suno_meta-gen 2b836221d8b2809e9481eecc2539bb6e.html",
+      "namespace": "disco-meta-gen",
+      "route": "sites/disco-meta-gen/suno_meta-gen 2b836221d8b2809e9481eecc2539bb6e.html"
+    },
+    {
+      "id": 61,
+      "title": "suno-disco-fill-me-up",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/suno-disco-fill-me-up -html/suno-disco-fill-me-up 3d336221d8b2808ba480e8e44e29130a.html",
+      "namespace": "disco-fill-me-up",
+      "route": "sites/disco-fill-me-up/suno-disco-fill-me-up 3d336221d8b2808ba480e8e44e29130a.html"
+    },
+    {
+      "id": 62,
+      "title": "suno-Discography-ALL-prompt",
+      "sourcePath": "/Users/steven/Music/nocturneMelodies/disco-playlists/suno-disco-all-prompt-html/suno-Discography-ALL-prompt 15736221d8b280848e96cade6970e5d7.html",
+      "namespace": "disco-all-prompt",
+      "route": "sites/disco-all-prompt/suno-Discography-ALL-prompt 15736221d8b280848e96cade6970e5d7.html"
+    }
+  ]
+}

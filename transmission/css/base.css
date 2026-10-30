@@ -1,0 +1,91 @@
+/* base: reset, typography, focus, reduced motion */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--bone);
+  font-family: var(--font-editorial);
+  font-size: var(--step-0);
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+h1, h2, h3 {
+  font-family: var(--font-declaration);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 0.98;
+  margin: 0 0 var(--gap-2);
+  text-transform: uppercase;
+}
+
+h2 { font-size: var(--step-3); }
+h3 { font-size: var(--step-1); }
+
+p { margin: 0 0 var(--gap-2); max-width: var(--measure); }
+
+a { color: var(--bone); text-decoration-color: rgba(245, 238, 223, 0.4); text-underline-offset: 0.22em; }
+a:hover { text-decoration-color: var(--pink); }
+
+code {
+  font-family: var(--font-telemetry);
+  font-size: 0.92em;
+  background: rgba(245, 238, 223, 0.08);
+  padding: 0.08em 0.34em;
+}
+
+:focus-visible {
+  outline: var(--focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 99;
+  background: var(--pink);
+  color: var(--void);
+  padding: 0.7rem 1.1rem;
+  font-family: var(--font-telemetry);
+  font-size: var(--step--1);
+}
+.skip-link:focus { left: 0; }
+
+.eyebrow,
+.section-label,
+.mini-title {
+  font-family: var(--font-telemetry);
+  font-size: var(--step--1);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 var(--gap-2);
+}
+
+.declaration {
+  font-size: var(--step-4);
+  text-transform: none;
+  letter-spacing: -0.035em;
+}
+.declaration em { font-style: italic; color: var(--pink); }
+
+.section-heading { max-width: 62ch; margin-bottom: var(--gap-4); }
+.section-heading h2 { max-width: 18ch; }
+.section-heading p { color: var(--ink-soft); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

@@ -1,0 +1,70 @@
+/* sections: layout per act of the transmission */
+
+.panel {
+  padding: var(--gap-5) var(--page);
+  max-width: 1400px;
+  margin: 0 auto;
+  border-top: 1px solid var(--panel-edge);
+}
+.panel:first-of-type { border-top: 0; }
+
+/* 1 · hero — the Spiral-Sine scene */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  align-items: center;
+  padding: 0 var(--page);
+  overflow: hidden;
+  background:
+    radial-gradient(120% 90% at 78% 18%, rgba(26, 43, 120, 0.85) 0%, rgba(11, 16, 48, 0) 62%),
+    radial-gradient(90% 70% at 12% 84%, rgba(255, 46, 136, 0.16) 0%, rgba(7, 7, 9, 0) 60%),
+    var(--night);
+}
+.spiral {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.95;
+}
+.hero-inner { position: relative; z-index: 2; max-width: 62rem; padding: 6rem 0 5rem; }
+.hero-inner .lede { font-size: var(--step-1); color: var(--ink-soft); max-width: 46ch; }
+.hero-actions { display: flex; gap: var(--gap-2); flex-wrap: wrap; margin: var(--gap-3) 0 var(--gap-2); }
+.hero-note {
+  font-family: var(--font-telemetry);
+  font-size: var(--step--1);
+  color: var(--ink-faint);
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+.scroll-cue {
+  position: absolute;
+  left: var(--page);
+  bottom: 1.4rem;
+  z-index: 2;
+  font-family: var(--font-telemetry);
+  font-size: var(--step--1);
+  letter-spacing: 0.24em;
+  color: var(--ink-faint);
+}
+
+/* 2 · song */
+.song { background: linear-gradient(to bottom, var(--night), var(--ground)); }
+
+/* 3 · world */
+.world { background: var(--ground); }
+
+/* 4 · characters */
+.characters { background: linear-gradient(to bottom, var(--ground), rgba(26, 43, 120, 0.35)); }
+.footnote { font-family: var(--font-telemetry); font-size: var(--step--1); color: var(--ink-faint); }
+
+/* 5 · engine */
+.engine { background: var(--ground); }
+
+/* 6 · evidence */
+.evidence { background: linear-gradient(to bottom, var(--ground), rgba(11, 16, 48, 0.55)); }
+
+/* 7 · invite */
+.invite { background: var(--night); }

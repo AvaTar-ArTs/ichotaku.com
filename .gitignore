@@ -1,0 +1,10 @@
+# media + regenerated trees stay out of git; the manifests are the record
+.DS_Store
+.specstory/
+*.zip
+sites/
+flagship-site/
+docs/
+semantic/
+node_modules/
+.tmp/

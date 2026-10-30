@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ichoTaKu · TRASHCAT RADIO 88.1 FM — Spiral-Sine flagship</title>
+<meta name="description" content="ichoTaKu broadcasts songs, broken worlds, living characters, and the systems that make them possible. A Spiral-Sine transmission from Heartbreak Alley.">
+<meta name="theme-color" content="#0B1030">
+<link rel="icon" href="assets/marks/icho-kaggle-outlaw.png">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+<a class="skip-link" href="#signal">Skip to the transmission</a>
+
+<div class="bug" aria-hidden="true"><span class="bug-dot"></span>88.1 FM</div>
+
+<div class="signon" id="signon" aria-hidden="true">
+  <p class="signon-line">TRASHCAT RADIO · 88.1 FM</p>
+  <p class="signon-line">LIVE TRANSMISSION 放送中</p>
+  <p class="signon-line dim">choTaKu — Night Ancestors Encounter</p>
+</div>
+
+<header class="masthead">
+  <a class="brand" href="#signal">
+    <img src="assets/marks/icho-kaggle-outlaw.png" alt="ichoTAKU KAGGLE OUTLAW brush badge: a crowned raccoon in a patched leather jacket on a graffiti wall" width="1000" height="944">
+    <span class="brand-text">ichoTaKu<small>TRASHCAT RADIO · 88.1 FM</small></span>
+  </a>
+  <nav class="nav" aria-label="Primary">
+    <a href="#song">Song</a>
+    <a href="#world">World</a>
+    <a href="#characters">Characters</a>
+    <a href="#engine">Engine</a>
+    <a href="#evidence">Evidence</a>
+    <a href="#invite">Open frequency</a>
+  </nav>
+</header>
+
+<main>
+  <section id="signal" class="hero">
+    <canvas id="spiral" class="spiral" aria-label="Interactive Spiral-Sine field: a torus carrying a fluid-inspired signal"></canvas>
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="onair">ON AIR</span> SPIRAL-SINE · HEARTBREAK ALLEY</p>
+      <h1 class="declaration">This isn’t just content.<br><em>This is a transmission.</em></h1>
+      <p class="lede">ichoTaKu broadcasts songs, broken worlds, living characters, and the systems that make them possible.</p>
+      <div class="hero-actions">
+        <button class="btn primary" type="button" data-action="tune-in">Tune in</button>
+        <a class="btn" href="#world">Enter the world</a>
+        <a class="btn" href="#engine">Open CHOTAKU</a>
+      </div>
+      <p class="hero-note" id="field-state">fluid-inspired interactive field · pointer stirs the vorticity</p>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">SCROLL ↓</div>
+  </section>
+
+  <section id="song" class="panel song">
+    <div class="section-label">01 / NOW TRANSMITTING</div>
+    <div class="section-heading">
+      <h2>One song, then the doors.</h2>
+      <p>Playback is opt-in. When you start it, the field above starts listening.</p>
+    </div>
+
+    <div class="now">
+      <figure class="now-art">
+        <img src="assets/posters/trashcat-radio-banner.jpg" alt="TrashCat Radio banner: hot-pink ichoTAKU logotype over a punk alley wall" width="1600" height="1066" loading="lazy">
+      </figure>
+      <div class="now-body">
+        <p class="eyebrow">TRANSMISSION 001 · TRACK</p>
+        <h3 class="track-title">Night Ancestors Encounter</h3>
+        <p class="track-meta">choTaKu · nocturne · from the Afterdark set</p>
+        <div class="player">
+          <button class="btn primary" type="button" id="play" aria-pressed="false">Play transmission</button>
+          <audio id="audio" preload="none" src="assets/audio/night-ancestors-encounter.mp3"></audio>
+          <div class="meter" id="meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="player-state" id="player-state">Carrier silent — the field is still alive.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pathways">
+      <h3 class="mini-title">Pathways, by feeling</h3>
+      <ul class="pathway-list">
+        <li><a href="../sites/afterdark-disco/index.html">Afterdark<span>the listening hours</span></a></li>
+        <li><a href="../sites/multiverse-icloud-v3/alley/index.html">Heartbreak Alley<span>rain, neon, ruin</span></a></li>
+        <li><a href="../sites/moving-discography/index.html">Cobalt Signal<span>the moving discography</span></a></li>
+        <li><a href="file:///Users/steven/Music/nocturneMelodies/Mother-with-nO-Name/00_mother-with-no-name-origin-stories/04_mother-with-no-name-music-video/">Mother-with-nO-Name<span>opens from disk</span></a></li>
+        <li><a href="../sites/disco-all-suno/suno-Discography-ALL-prompt-2.html">The whole catalogue<span>1,437 tracks</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="world" class="panel world">
+    <div class="section-label">02 / THE BROADCAST IS A WORLD</div>
+    <div class="section-heading">
+      <h2>Tune to a node. It opens a door.</h2>
+      <p>Ten places, each with one image, one sentence, one way in. No grid of equals.</p>
+    </div>
+
+    <div class="tuner">
+      <div class="tuner-list" role="tablist" aria-label="Worlds" id="tuner-list"></div>
+      <figure class="tuner-stage">
+        <img id="tuner-image" src="assets/worlds/heartbreak-alley.jpg" alt="" width="960" height="1200">
+        <figcaption>
+          <p class="eyebrow" id="tuner-family">NODE</p>
+          <h3 id="tuner-title">Heartbreak Alley</h3>
+          <p id="tuner-line">Noir punk gutter beauty — the place the station transmits from.</p>
+          <a class="btn" id="tuner-link" href="../sites/multiverse-icloud-v3/alley/index.html">Open the door</a>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="characters" class="panel characters">
+    <div class="section-label">03 / WHO IS TRANSMITTING</div>
+    <div class="section-heading">
+      <h2>Two characters. One frequency.</h2>
+      <p>Related, not identical. One builds the workspace, the other guards the alley.</p>
+    </div>
+    <div class="duo">
+      <article class="character">
+        <img src="assets/marks/icho-kaggle-outlaw.png" alt="ichoTAKU KAGGLE OUTLAW brush badge: a crowned raccoon in a patched leather jacket on a graffiti wall" width="1000" height="944" loading="lazy">
+        <h3>ichoTaKu</h3>
+        <p class="archetype">Anime-Obsessed Creator</p>
+        <p class="bio">Enthusiastic anime-fan perspective, digital workspace energy, creator mindset. Anime · J-pop · digital · creator · vocaloid · passion · chaos energy.</p>
+        <p class="world">Primary world: <b>The Forge</b> — cyberpunk monastic, digital workspace sacred.</p>
+        <a class="textlink" href="assets/docs/ichotaku-character-guide.md">Character guide →</a>
+      </article>
+      <article class="character">
+        <img src="assets/characters/trashcat-pink.png" alt="TrashCat, the punk raccoon philosopher, rendered in hot pink" width="831" height="900" loading="lazy">
+        <h3>TrashCat</h3>
+        <p class="archetype">Punk Raccoon Philosopher</p>
+        <p class="bio">Punk attitude with philosophical wisdom, gutter poetry, junkyard sacred wisdom. Punk · trash wisdom · chaos philosophy · street · breakcore · darkness · truth.</p>
+        <p class="world">Primary world: <b>Sacred Junkyard</b> — industrial folk sacred, found beauty and wisdom.</p>
+        <a class="textlink" href="assets/docs/trashcat-character-guide.md">Character guide →</a>
+      </article>
+    </div>
+    <p class="footnote">Signage stays an image asset. The brush ichoTaKu mark is never retyped.</p>
+  </section>
+
+  <section id="engine" class="panel engine">
+    <div class="section-label">04 / CHOTAKU — THE ENGINE BEHIND THE SIGNAL</div>
+    <div class="section-heading">
+      <h2>The world has an engine.</h2>
+      <p>Everything above is downstream of the same pipeline. Only what already exists is named here.</p>
+    </div>
+
+    <ol class="pipeline" aria-label="CHOTAKU pipeline">
+      <li><b>Source</b><span>prompts, discographies, catalogues</span><a href="../sites/disco-all-suno/suno-Discography-ALL-prompt-2.html">open</a></li>
+      <li><b>Interpret</b><span>the creative archive and DigitalDive</span><a href="../sites/avatararts-root/index-og.html">open</a></li>
+      <li><b>Generate</b><span>CHOTAKU video generation MVP</span><a href="../sites/avatararts-root/index 2.html">open</a></li>
+      <li><b>Assemble</b><span>the multiverse district builds</span><a href="../sites/avatararts-root/avatararts-multiverse-sites-v3/index.html">open</a></li>
+      <li><b>Broadcast</b><span>radio, Afterdark, the discography</span><a href="../sites/afterdark-disco/index.html">open</a></li>
+    </ol>
+
+    <div class="engine-evidence">
+      <figure><img src="assets/evidence/chotaku-generator.webp" alt="CHOTAKU open-source video generation preview" loading="lazy"><figcaption>CHOTAKU — Open-Source Video Generation. No API bills. No watermarks.</figcaption></figure>
+      <figure><img src="assets/evidence/ichotaku-hub.webp" alt="ichoTaKu creator hub preview" loading="lazy"><figcaption>The creator hub that carries the same identity into eight districts.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="evidence" class="panel evidence">
+    <div class="section-label">05 / EVIDENCE, NOT POLISH</div>
+    <div class="section-heading">
+      <h2>Alternate pages are not mistakes to erase.</h2>
+      <p>They are evidence of the world learning what it is. The full 62-page atlas stays online as the record.</p>
+    </div>
+
+    <article class="variant">
+      <div class="variant-strip">
+        <figure><img src="assets/evidence/multiverse-v1.webp" alt="AvaTar-ArTs Multiverse v1 preview" loading="lazy"><figcaption>v1</figcaption></figure>
+        <figure><img src="assets/evidence/multiverse-v2.webp" alt="AvaTar-ArTs Multiverse v2 preview" loading="lazy"><figcaption>v2</figcaption></figure>
+        <figure><img src="assets/evidence/multiverse-v3.webp" alt="AvaTar-ArTs Multiverse v3 preview" loading="lazy"><figcaption>v3</figcaption></figure>
+      </div>
+      <div class="variant-body">
+        <h3>Multiverse v1 → v2 → v3</h3>
+        <p>All three carry the same eight districts, and the <code>site.json</code> of v1 and v2 is byte-identical per district. v3 is the only real change: every district gains a <code>gallery</code> block (4 assets), a <code>content_note</code>, and nine shared recent assets — TrashCat boards, a raccoon still, and extracted video frames.</p>
+        <p class="verdict">Promote v3. Keep v1 and v2 as lineage.</p>
+      </div>
+    </article>
+
+    <article class="variant">
+      <div class="variant-strip two">
+        <figure><img src="assets/evidence/ichotaku-hub.webp" alt="ichoTaKu creator hub preview" loading="lazy"><figcaption>identity</figcaption></figure>
+        <figure><img src="assets/evidence/chotaku-generator.webp" alt="CHOTAKU open-source video generation preview" loading="lazy"><figcaption>product</figcaption></figure>
+        <figure><img src="assets/evidence/moving-discography.webp" alt="choTaKu Moving Discography preview" loading="lazy"><figcaption>world</figcaption></figure>
+      </div>
+      <div class="variant-body">
+        <h3>Three faces, one system</h3>
+        <p>The creator hub, the CHOTAKU product page and the moving discography are not duplicates of each other — they are identity, product and world. Side by side, the shared design DNA is obvious: condensed declarations, night grounds, signal pink, cyan accents, and evidence on display.</p>
+        <p class="verdict">Similarity is evidence, not deletion authority.</p>
+      </div>
+    </article>
+
+    <p class="atlas-link"><a class="btn" href="../index.html">Open the full 62-page atlas</a> <span>every preview, every source path, nothing deleted</span></p>
+  </section>
+
+  <section id="invite" class="panel invite">
+    <div class="section-label">06 / OPEN FREQUENCY</div>
+    <div class="section-heading">
+      <h2>Three ways in.</h2>
+    </div>
+    <div class="invites">
+      <article><h3>Listen</h3><p>Put the transmission on. The field follows the amplitude.</p><a class="textlink" href="#song">back to the song ↑</a></article>
+      <article><h3>Explore</h3><p>Ten doors, each one a different kind of place.</p><a class="textlink" href="#world">tune the world ↑</a></article>
+      <article><h3>Create</h3><p>Creative automation for systems that create — the same stack, pointed at your work.</p><a class="textlink" href="../sites/steven-profile-icloud/chotaku-fiverr-updated-preview.html">the storefront ↗</a></article>
+    </div>
+
+    <div class="signoff" id="signoff">
+      <p class="signon-line">SIGNAL RECEIVED</p>
+      <p class="signon-line">TRASHCAT RADIO 88.1 FM</p>
+      <p class="signon-line">Tune in. Rise up. Stay trash.</p>
+      <p class="signon-line dim">ichotaku.com <span class="jp">信号を送信</span></p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p><b>ichoTaKu Creative Systems — Spiral-Sine flagship</b></p>
+  <p>Built from real local sources: the 62-page atlas, the Multiverse v1–v3 district builds, the Afterdark and discography players, the TrashCat character packs and the CHOTAKU MVP pages.</p>
+  <p>No source folder was modified. Every copied asset records its origin in <code>asset-manifest.json</code>. The field is a fluid-inspired interactive approximation, not a research solver.</p>
+</footer>
+
+<script src="js/spiral-sine.js" type="module"></script>
+<script src="js/audio.js" type="module"></script>
+<script src="js/site.js" type="module"></script>
+</body>
+</html>
