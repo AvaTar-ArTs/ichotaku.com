@@ -10,3 +10,4 @@ Local, additive consolidation of the ichoTaKu / CHOTAKU creative sites.
 - `consolidation-manifest.json` records source-to-destination provenance.
 
 The launcher serves the folder on <http://127.0.0.1:4174/> so pages that load sibling scripts, styles, data, or media work consistently.
+# ichotaku.com
